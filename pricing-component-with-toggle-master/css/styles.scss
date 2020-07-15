@@ -2,6 +2,13 @@ $very-light-grayish-blue:hsl(240, 78%, 98%);
 $light-grayish-blue:hsl(234, 14%, 74%);
 $grayish-blue:hsl(233, 13%, 49%);
 $dark-grayish-blue:hsl(232, 13%, 33%);
+$font-family:'Montserrat',
+sans-serif;
+$weight-bold:700;
+body {
+    background-color: $very-light-grayish-blue;
+}
+
 //--------------------switch---------------------
 .switch {
     position: relative;
@@ -62,37 +69,338 @@ input:checked+.slider:before {
 .switch-cont {
     text-align: center;
     .row {
-        margin: 3% auto 3% 42%;
+        margin: 1% auto 3% 37%;
+        h5 {
+            padding: 0 5%;
+        }
     }
 }
 
 //---------------------price container--------------------
-.cards-cont {
-    .row {
-        .col-lg-4 {
-            .card-one {
-                position: relative;
-                left: 30%;
-                .card-body {
-                    ul {
-                        list-style-type: none;
+.monthly {
+    .cards-cont {
+        .row {
+            .col-lg-4 {
+                .card-one {
+                    position: relative;
+                    top: 2%;
+                    left: 15%;
+                    .card-body {
+                        padding: 20% 10%;
+                        h5 {
+                            font-family: $font-family;
+                            font-weight: $weight-bold;
+                            color: $dark-grayish-blue;
+                        }
+                        ul {
+                            list-style-type: none;
+                            li {
+                                hr {
+                                    width: 80%;
+                                    padding: 1% 0;
+                                    border-color: $dark-grayish-blue;
+                                }
+                                h2 {
+                                    font-size: 80px;
+                                    font-family: $font-family;
+                                    font-weight: $weight-bold;
+                                    color: $dark-grayish-blue;
+                                }
+                                h5 {
+                                    font-family: $font-family;
+                                    font-weight: $weight-bold;
+                                    color: $dark-grayish-blue;
+                                }
+                            }
+                        }
+                        button {
+                            border-color: $dark-grayish-blue;
+                            color: $dark-grayish-blue;
+                            font-family: $font-family;
+                            &:hover {
+                                background-image: linear-gradient(to right, $grayish-blue, $dark-grayish-blue);
+                                color: $very-light-grayish-blue;
+                            }
+                        }
+                    }
+                }
+                .card-two {
+                    z-index: 1;
+                    .card-body {
+                        background-image: linear-gradient(135deg, $grayish-blue, $dark-grayish-blue);
+                        padding: 20% 7% 25% 7%;
+                        h5 {
+                            font-family: $font-family;
+                            font-weight: $weight-bold;
+                            color: white;
+                        }
+                        ul {
+                            list-style-type: none;
+                            li {
+                                hr {
+                                    width: 60%;
+                                    padding: 1% 0;
+                                    border-color: $light-grayish-blue;
+                                }
+                                h2 {
+                                    font-size: 80px;
+                                    font-family: $font-family;
+                                    font-weight: $weight-bold;
+                                    color: white;
+                                }
+                                h5 {
+                                    font-family: $font-family;
+                                    font-weight: $weight-bold;
+                                    color: white;
+                                }
+                            }
+                        }
+                        button {
+                            background-color: $very-light-grayish-blue;
+                            color: $dark-grayish-blue;
+                            font-family: $font-family;
+                            &:hover {
+                                background-color: transparent;
+                                border-color: $very-light-grayish-blue;
+                                color: $very-light-grayish-blue;
+                            }
+                        }
+                    }
+                }
+                .card-three {
+                    position: relative;
+                    top: 2%;
+                    right: 15%;
+                    .card-body {
+                        padding: 20% 10%;
+                        h5 {
+                            font-family: $font-family;
+                            font-weight: $weight-bold;
+                            color: $dark-grayish-blue;
+                        }
+                        ul {
+                            list-style-type: none;
+                            li {
+                                hr {
+                                    width: 80%;
+                                    padding: 1% 0;
+                                    border-color: $dark-grayish-blue;
+                                }
+                                h2 {
+                                    font-size: 80px;
+                                    font-family: $font-family;
+                                    font-weight: $weight-bold;
+                                    color: $dark-grayish-blue;
+                                }
+                                h5 {
+                                    font-family: $font-family;
+                                    font-weight: $weight-bold;
+                                    color: $dark-grayish-blue;
+                                }
+                            }
+                        }
+                        button {
+                            border-color: $dark-grayish-blue;
+                            color: $dark-grayish-blue;
+                            font-family: $font-family;
+                            &:hover {
+                                background-image: linear-gradient(to right, $grayish-blue, $dark-grayish-blue);
+                                color: $very-light-grayish-blue;
+                            }
+                        }
                     }
                 }
             }
-            .card-two {
-                z-index: 1;
-                .card-body {
-                    ul {
-                        list-style-type: none;
+        }
+    }
+}
+
+.annually {
+    .cards-cont {
+        .row {
+            .col-lg-4 {
+                .card-one {
+                    position: relative;
+                    top: 2%;
+                    left: 15%;
+                    .card-body {
+                        padding: 20% 10%;
+                        h5 {
+                            font-family: $font-family;
+                            font-weight: $weight-bold;
+                            color: $dark-grayish-blue;
+                        }
+                        ul {
+                            padding-left: 3%;
+                            list-style-type: none;
+                            li {
+                                hr {
+                                    width: 80%;
+                                    padding: 1% 0;
+                                    border-color: $dark-grayish-blue;
+                                }
+                                h2 {
+                                    font-size: 80px;
+                                    font-family: $font-family;
+                                    font-weight: $weight-bold;
+                                    color: $dark-grayish-blue;
+                                }
+                                h5 {
+                                    font-family: $font-family;
+                                    font-weight: $weight-bold;
+                                    color: $dark-grayish-blue;
+                                }
+                            }
+                        }
+                        button {
+                            border-color: $dark-grayish-blue;
+                            color: $dark-grayish-blue;
+                            font-family: $font-family;
+                            &:hover {
+                                background-image: linear-gradient(to right, $grayish-blue, $dark-grayish-blue);
+                                color: $very-light-grayish-blue;
+                            }
+                        }
+                    }
+                }
+                .card-two {
+                    z-index: 1;
+                    .card-body {
+                        background-image: linear-gradient(135deg, $grayish-blue, $dark-grayish-blue);
+                        padding: 20% 7% 25% 7%;
+                        h5 {
+                            font-family: $font-family;
+                            font-weight: $weight-bold;
+                            color: white;
+                        }
+                        ul {
+                            list-style-type: none;
+                            padding-left: 3%;
+                            li {
+                                hr {
+                                    width: 80%;
+                                    padding: 1% 0;
+                                    border-color: $light-grayish-blue;
+                                }
+                                h2 {
+                                    font-size: 80px;
+                                    font-family: $font-family;
+                                    font-weight: $weight-bold;
+                                    color: white;
+                                }
+                                h5 {
+                                    font-family: $font-family;
+                                    font-weight: $weight-bold;
+                                    color: white;
+                                }
+                            }
+                        }
+                        button {
+                            background-color: $very-light-grayish-blue;
+                            color: $dark-grayish-blue;
+                            font-family: $font-family;
+                            &:hover {
+                                background-color: transparent;
+                                border-color: $very-light-grayish-blue;
+                                color: $very-light-grayish-blue;
+                            }
+                        }
+                    }
+                }
+                .card-three {
+                    position: relative;
+                    top: 2%;
+                    right: 15%;
+                    .card-body {
+                        padding: 20% 10%;
+                        h5 {
+                            font-family: $font-family;
+                            font-weight: $weight-bold;
+                            color: $dark-grayish-blue;
+                        }
+                        ul {
+                            list-style-type: none;
+                            li {
+                                hr {
+                                    width: 80%;
+                                    padding: 1% 0;
+                                    border-color: $dark-grayish-blue;
+                                }
+                                h2 {
+                                    font-size: 80px;
+                                    font-family: $font-family;
+                                    font-weight: $weight-bold;
+                                    color: $dark-grayish-blue;
+                                }
+                                h5 {
+                                    font-family: $font-family;
+                                    font-weight: $weight-bold;
+                                    color: $dark-grayish-blue;
+                                }
+                            }
+                        }
+                        button {
+                            border-color: $dark-grayish-blue;
+                            color: $dark-grayish-blue;
+                            font-family: $font-family;
+                            &:hover {
+                                background-image: linear-gradient(to right, $grayish-blue, $dark-grayish-blue);
+                                color: $very-light-grayish-blue;
+                            }
+                        }
                     }
                 }
             }
-            .card-three {
-                position: relative;
-                right: 30%;
-                .card-body {
+        }
+    }
+}
+
+@media screen and (max-width:768px) {
+    .switch-cont {
+        text-align: center;
+        .row {
+            margin: 2% auto 3% 20%;
+        }
+    }
+    .monthly {
+        .cards-cont {
+            .row {
+                .col-lg-4 {
+                    margin: 2% 0;
                     ul {
-                        list-style-type: none;
+                        padding-left: 4%;
+                    }
+                    .card-one {
+                        position: relative;
+                        top: 0;
+                        left: 0;
+                    }
+                    .card-three {
+                        position: relative;
+                        top: 0;
+                        left: 0;
+                    }
+                }
+            }
+        }
+    }
+    .annually {
+        .cards-cont {
+            .row {
+                .col-lg-4 {
+                    margin: 2% 0;
+                    ul {
+                        padding-left: 4%;
+                    }
+                    .card-one {
+                        position: relative;
+                        top: 0;
+                        left: 0;
+                    }
+                    .card-three {
+                        position: relative;
+                        top: 0;
+                        left: 0;
                     }
                 }
             }

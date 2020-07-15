@@ -1,3 +1,7 @@
+body {
+  background-color: #f6f6fe;
+}
+
 .switch {
   position: relative;
   display: inline-block;
@@ -62,31 +66,352 @@ input:checked + .slider:before {
 }
 
 .switch-cont .row {
-  margin: 3% auto 3% 42%;
+  margin: 1% auto 3% 37%;
 }
 
-.cards-cont .row .col-lg-4 .card-one {
+.switch-cont .row h5 {
+  padding: 0 5%;
+}
+
+.monthly .cards-cont .row .col-lg-4 .card-one {
   position: relative;
-  left: 30%;
+  top: 2%;
+  left: 15%;
 }
 
-.cards-cont .row .col-lg-4 .card-one .card-body ul {
+.monthly .cards-cont .row .col-lg-4 .card-one .card-body {
+  padding: 20% 10%;
+}
+
+.monthly .cards-cont .row .col-lg-4 .card-one .card-body h5 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #494c5f;
+}
+
+.monthly .cards-cont .row .col-lg-4 .card-one .card-body ul {
   list-style-type: none;
 }
 
-.cards-cont .row .col-lg-4 .card-two {
+.monthly .cards-cont .row .col-lg-4 .card-one .card-body ul li hr {
+  width: 80%;
+  padding: 1% 0;
+  border-color: #494c5f;
+}
+
+.monthly .cards-cont .row .col-lg-4 .card-one .card-body ul li h2 {
+  font-size: 80px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #494c5f;
+}
+
+.monthly .cards-cont .row .col-lg-4 .card-one .card-body ul li h5 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #494c5f;
+}
+
+.monthly .cards-cont .row .col-lg-4 .card-one .card-body button {
+  border-color: #494c5f;
+  color: #494c5f;
+  font-family: "Montserrat", sans-serif;
+}
+
+.monthly .cards-cont .row .col-lg-4 .card-one .card-body button:hover {
+  background-image: linear-gradient(to right, #6d708d, #494c5f);
+  color: #f6f6fe;
+}
+
+.monthly .cards-cont .row .col-lg-4 .card-two {
   z-index: 1;
 }
 
-.cards-cont .row .col-lg-4 .card-two .card-body ul {
+.monthly .cards-cont .row .col-lg-4 .card-two .card-body {
+  background-image: linear-gradient(135deg, #6d708d, #494c5f);
+  padding: 20% 7% 25% 7%;
+}
+
+.monthly .cards-cont .row .col-lg-4 .card-two .card-body h5 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: white;
+}
+
+.monthly .cards-cont .row .col-lg-4 .card-two .card-body ul {
   list-style-type: none;
 }
 
-.cards-cont .row .col-lg-4 .card-three {
+.monthly .cards-cont .row .col-lg-4 .card-two .card-body ul li hr {
+  width: 60%;
+  padding: 1% 0;
+  border-color: #b3b5c6;
+}
+
+.monthly .cards-cont .row .col-lg-4 .card-two .card-body ul li h2 {
+  font-size: 80px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: white;
+}
+
+.monthly .cards-cont .row .col-lg-4 .card-two .card-body ul li h5 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: white;
+}
+
+.monthly .cards-cont .row .col-lg-4 .card-two .card-body button {
+  background-color: #f6f6fe;
+  color: #494c5f;
+  font-family: "Montserrat", sans-serif;
+}
+
+.monthly .cards-cont .row .col-lg-4 .card-two .card-body button:hover {
+  background-color: transparent;
+  border-color: #f6f6fe;
+  color: #f6f6fe;
+}
+
+.monthly .cards-cont .row .col-lg-4 .card-three {
   position: relative;
-  right: 30%;
+  top: 2%;
+  right: 15%;
 }
 
-.cards-cont .row .col-lg-4 .card-three .card-body ul {
+.monthly .cards-cont .row .col-lg-4 .card-three .card-body {
+  padding: 20% 10%;
+}
+
+.monthly .cards-cont .row .col-lg-4 .card-three .card-body h5 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #494c5f;
+}
+
+.monthly .cards-cont .row .col-lg-4 .card-three .card-body ul {
   list-style-type: none;
+}
+
+.monthly .cards-cont .row .col-lg-4 .card-three .card-body ul li hr {
+  width: 80%;
+  padding: 1% 0;
+  border-color: #494c5f;
+}
+
+.monthly .cards-cont .row .col-lg-4 .card-three .card-body ul li h2 {
+  font-size: 80px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #494c5f;
+}
+
+.monthly .cards-cont .row .col-lg-4 .card-three .card-body ul li h5 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #494c5f;
+}
+
+.monthly .cards-cont .row .col-lg-4 .card-three .card-body button {
+  border-color: #494c5f;
+  color: #494c5f;
+  font-family: "Montserrat", sans-serif;
+}
+
+.monthly .cards-cont .row .col-lg-4 .card-three .card-body button:hover {
+  background-image: linear-gradient(to right, #6d708d, #494c5f);
+  color: #f6f6fe;
+}
+
+.annually .cards-cont .row .col-lg-4 .card-one {
+  position: relative;
+  top: 2%;
+  left: 15%;
+}
+
+.annually .cards-cont .row .col-lg-4 .card-one .card-body {
+  padding: 20% 10%;
+}
+
+.annually .cards-cont .row .col-lg-4 .card-one .card-body h5 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #494c5f;
+}
+
+.annually .cards-cont .row .col-lg-4 .card-one .card-body ul {
+  padding-left: 3%;
+  list-style-type: none;
+}
+
+.annually .cards-cont .row .col-lg-4 .card-one .card-body ul li hr {
+  width: 80%;
+  padding: 1% 0;
+  border-color: #494c5f;
+}
+
+.annually .cards-cont .row .col-lg-4 .card-one .card-body ul li h2 {
+  font-size: 80px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #494c5f;
+}
+
+.annually .cards-cont .row .col-lg-4 .card-one .card-body ul li h5 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #494c5f;
+}
+
+.annually .cards-cont .row .col-lg-4 .card-one .card-body button {
+  border-color: #494c5f;
+  color: #494c5f;
+  font-family: "Montserrat", sans-serif;
+}
+
+.annually .cards-cont .row .col-lg-4 .card-one .card-body button:hover {
+  background-image: linear-gradient(to right, #6d708d, #494c5f);
+  color: #f6f6fe;
+}
+
+.annually .cards-cont .row .col-lg-4 .card-two {
+  z-index: 1;
+}
+
+.annually .cards-cont .row .col-lg-4 .card-two .card-body {
+  background-image: linear-gradient(135deg, #6d708d, #494c5f);
+  padding: 20% 7% 25% 7%;
+}
+
+.annually .cards-cont .row .col-lg-4 .card-two .card-body h5 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: white;
+}
+
+.annually .cards-cont .row .col-lg-4 .card-two .card-body ul {
+  list-style-type: none;
+  padding-left: 3%;
+}
+
+.annually .cards-cont .row .col-lg-4 .card-two .card-body ul li hr {
+  width: 80%;
+  padding: 1% 0;
+  border-color: #b3b5c6;
+}
+
+.annually .cards-cont .row .col-lg-4 .card-two .card-body ul li h2 {
+  font-size: 80px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: white;
+}
+
+.annually .cards-cont .row .col-lg-4 .card-two .card-body ul li h5 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: white;
+}
+
+.annually .cards-cont .row .col-lg-4 .card-two .card-body button {
+  background-color: #f6f6fe;
+  color: #494c5f;
+  font-family: "Montserrat", sans-serif;
+}
+
+.annually .cards-cont .row .col-lg-4 .card-two .card-body button:hover {
+  background-color: transparent;
+  border-color: #f6f6fe;
+  color: #f6f6fe;
+}
+
+.annually .cards-cont .row .col-lg-4 .card-three {
+  position: relative;
+  top: 2%;
+  right: 15%;
+}
+
+.annually .cards-cont .row .col-lg-4 .card-three .card-body {
+  padding: 20% 10%;
+}
+
+.annually .cards-cont .row .col-lg-4 .card-three .card-body h5 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #494c5f;
+}
+
+.annually .cards-cont .row .col-lg-4 .card-three .card-body ul {
+  list-style-type: none;
+}
+
+.annually .cards-cont .row .col-lg-4 .card-three .card-body ul li hr {
+  width: 80%;
+  padding: 1% 0;
+  border-color: #494c5f;
+}
+
+.annually .cards-cont .row .col-lg-4 .card-three .card-body ul li h2 {
+  font-size: 80px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #494c5f;
+}
+
+.annually .cards-cont .row .col-lg-4 .card-three .card-body ul li h5 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #494c5f;
+}
+
+.annually .cards-cont .row .col-lg-4 .card-three .card-body button {
+  border-color: #494c5f;
+  color: #494c5f;
+  font-family: "Montserrat", sans-serif;
+}
+
+.annually .cards-cont .row .col-lg-4 .card-three .card-body button:hover {
+  background-image: linear-gradient(to right, #6d708d, #494c5f);
+  color: #f6f6fe;
+}
+
+@media screen and (max-width: 768px) {
+  .switch-cont {
+    text-align: center;
+  }
+  .switch-cont .row {
+    margin: 2% auto 3% 20%;
+  }
+  .monthly .cards-cont .row .col-lg-4 {
+    margin: 2% 0;
+  }
+  .monthly .cards-cont .row .col-lg-4 ul {
+    padding-left: 4%;
+  }
+  .monthly .cards-cont .row .col-lg-4 .card-one {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .monthly .cards-cont .row .col-lg-4 .card-three {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .annually .cards-cont .row .col-lg-4 {
+    margin: 2% 0;
+  }
+  .annually .cards-cont .row .col-lg-4 ul {
+    padding-left: 4%;
+  }
+  .annually .cards-cont .row .col-lg-4 .card-one {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .annually .cards-cont .row .col-lg-4 .card-three {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
 }
