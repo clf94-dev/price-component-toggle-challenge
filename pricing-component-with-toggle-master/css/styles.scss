@@ -65,3 +65,37 @@ input:checked+.slider:before {
         margin: 3% auto 3% 42%;
     }
 }
+
+//---------------------price container--------------------
+.cards-cont {
+    .row {
+        .col-lg-4 {
+            .card-one {
+                position: relative;
+                left: 30%;
+                .card-body {
+                    ul {
+                        list-style-type: none;
+                    }
+                }
+            }
+            .card-two {
+                z-index: 1;
+                .card-body {
+                    ul {
+                        list-style-type: none;
+                    }
+                }
+            }
+            .card-three {
+                position: relative;
+                right: 30%;
+                .card-body {
+                    ul {
+                        list-style-type: none;
+                    }
+                }
+            }
+        }
+    }
+}

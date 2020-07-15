@@ -64,3 +64,29 @@ input:checked + .slider:before {
 .switch-cont .row {
   margin: 3% auto 3% 42%;
 }
+
+.cards-cont .row .col-lg-4 .card-one {
+  position: relative;
+  left: 30%;
+}
+
+.cards-cont .row .col-lg-4 .card-one .card-body ul {
+  list-style-type: none;
+}
+
+.cards-cont .row .col-lg-4 .card-two {
+  z-index: 1;
+}
+
+.cards-cont .row .col-lg-4 .card-two .card-body ul {
+  list-style-type: none;
+}
+
+.cards-cont .row .col-lg-4 .card-three {
+  position: relative;
+  right: 30%;
+}
+
+.cards-cont .row .col-lg-4 .card-three .card-body ul {
+  list-style-type: none;
+}
